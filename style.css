@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
+    background-position: center;
+}
+.couple h1{
+    font-family: "Spectral", serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+}
+
+.invite h2{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
+
+.initial h3{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.quote h5{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.other-header{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.date{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    padding: ;
+}
+
+.venue{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section{
+    border: 1px solid;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.section img{
+    height: 100vh;
+    width: 30%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 234, 218);
+}
+
+.links i{
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.sender h4{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+@media(max-width:500px){
+    .header{
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
+    background-position: center;
+    }
+
+    .other-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 234, 218);
+}
+
+.links i{
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.sender h4{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+}
+}
